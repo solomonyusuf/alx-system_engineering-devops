@@ -1,2 +1,2 @@
 #!/bin/bash
-export PATH=hello MyUser
+export PATH="hello MyUser"
