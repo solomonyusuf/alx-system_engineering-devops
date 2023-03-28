@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a collection of web infrastructure designs that could be implemented in any web development project.
+This project contains web infrastructure designs that could be used in any web development project.
 
 ## Designs Presented
 
