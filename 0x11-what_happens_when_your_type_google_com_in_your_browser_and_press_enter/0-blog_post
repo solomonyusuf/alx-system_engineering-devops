@@ -1,0 +1,8 @@
+0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter
+
+
+the browser goes to the DNS server and finds the real address (IP address) of the server that the website lives on.
+Once the IP address is known the browser makes an HTTP request (GET request) to the IP address to obtain the content of the site via the TCP/IP protocol.
+The request is checked by the server's firewall to make that everything is alright and there are not any security violations.
+Once the server (webserver) receives the request sent by the browser after going through the firewall, the load balancer (server) if any, answers the request sending the data (also via TCP/IP protocol) along with the SSL certificate to initiate a secure session over HTTPS.
+Finally, the information is received by the web browser that made the request and now the information (usually: HTML, CSS, and JavaScript) is interpreted and rendered by the browser, showing the final result which is the website that you asked for, in this case: www.google.com
